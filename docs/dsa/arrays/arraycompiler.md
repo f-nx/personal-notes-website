@@ -1,6 +1,6 @@
 ---
 sidebar_label: Array representation by compiler
-title: Array representation by compiler
+title:    
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -33,6 +33,7 @@ export const Cb = ({children}) => ( <span style={{
       color: "#1877F2",
     }}>{children}</span> );
 
+## Array Representation by Compiler
 
 When we create a variable or an array in C, its address gets allocated in the memory
 during execution. When the program gets compiled into machine code, variables or

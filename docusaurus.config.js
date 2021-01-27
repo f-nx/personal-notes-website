@@ -9,6 +9,10 @@ module.exports = {
   organizationName: 'f-nx', // Usually your GitHub org/user name.
   projectName: 'personal-notes-website', // Usually your repo name.
   themeConfig: {
+    hideableSidebar: true,
+    prism: {
+      theme: require('prism-react-renderer/themes/oceanicNext'),
+    },
     navbar: {
       style: 'dark',
       title: 'Notes',
@@ -25,7 +29,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/f-nx/personal-notes-website',
           label: 'GitHub',
           position: 'right',
         },

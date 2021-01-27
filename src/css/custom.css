@@ -62,27 +62,7 @@
 ul ul .table-of-contents__link--active::before{
   left: -35px;
 }
-.button.button--secondary.button--outline:not(.button--active):not(:hover) {
-  border-color: var(--ifm-color-primary-darker);
-  color: white;
-}
-
-.button.button--secondary.button--outline:hover {
-  color: white;
-  border-color: null;
-  background-color: var(--ifm-color-primary);
-}
-.button.button--secondary.button {
-  border: 2px solid;
-  border-radius: 8px;
-  font-size: 24px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.button.button--secondary.button:hover{
-  border-color: var(--ifm-color-primary);
-}
-
+ 
 .hero__title {
   color: var(--ifm-color-primary);
 }
@@ -91,6 +71,15 @@ ul ul .table-of-contents__link--active::before{
   color: white;
 }
  
+.button.button--outline.button--secondary.button--lg{
+  border-width: 2px;
+  border-color: var(--ifm-color-primary);
+}
+.button.button--outline.button--secondary.button--lg:hover{
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
 blockquote {
   border-color: var(--ifm-color-primary);
 }

@@ -9,7 +9,11 @@ module.exports = {
     {
       type: 'category',
       label: "DSA",
-      items: ['dsa/intro','dsa/timespace',{
+      items: ['dsa/intro',{
+        type: 'category',
+        label: "Complexity",
+        items: ['dsa/timecol','dsa/spacecol']
+      },{
         type: 'category',
         label: "Arrays",
         items: ['dsa/arrays/arrays','dsa/arrays/arrayadt','dsa/arrays/arraypointer','dsa/arrays/arraycompiler',{
