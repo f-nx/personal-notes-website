@@ -4,7 +4,7 @@ title: Space Complexity
 hide_table_of_contents: true
 ---
   
-### What is Space Complexity?
+### ❓ What is Space Complexity?
 Space complexity is a measure of the amount of working storage an algorithm
 needs. That means how much memory, in the worst case, is needed at any point in
 the algorithm.

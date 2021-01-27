@@ -17,9 +17,9 @@ export const Highlight = ({children, color}) => ( <span style={{
     }}>{children}</span> );
 
 
-## Big O Notation
+## 🕧 Big O Notation
 
-**<C color="#1877F2">What is Big O Notation?</C>**
+**<C color="#1877F2">❓ What is Big O Notation?</C>**
 
 **<C color="#60d394">Big O Notation</C>** is used to indicate the efficiency of a certain algorithm or a function
 with respect to time & space(memory). It is the language we use for talking about
@@ -93,14 +93,14 @@ Case when all possible permutations of a set of data are generated.
 :::
 
 
-## What can cause time in a function?
+## 🕧 What can cause time in a function?
 
 **<C color="#5e60ce">Operations</C>** (+, -, *, /)  
 **<C color="#5e60ce">Comparisons</C>** (<, >, ==)  
 **<C color="#5e60ce">Looping</C>** (for, while)  
 **<C color="#5e60ce">Outside Function call</C>** (function())  
 
-## Rule Book for calculating Big O
+## 📗 Rule Book for calculating Big O
 
 **Rule 1:** Always consider worst Case  
 **Rule 2:** Remove all the Constants  
@@ -111,7 +111,7 @@ nested would be
 ***** for **nested for loops  
 Rule 4:** Drop the non-dominant terms  
 
-## Big O Notations for some common data structures
+## 🔖 Big O Notations for some common data structures
 
 ![picture 3](https://i.imgur.com/Hg8aIDF.png)  
 

@@ -34,7 +34,7 @@ export const Cb = ({children}) => ( <span style={{
     }}>{children}</span> );
 
 
-## Introduction
+## 👋 Introduction
 
 An array is a collection of homogeneous (same type) data items stored in contiguous
 (side by side or in order) memory locations. For example if an array is of type “int”,
@@ -58,12 +58,12 @@ Syntax for declaring and initializing an 1-D array
 &nbsp<Cp>
 **data_type**</Cp>&nbsp<C color="red">**array_name**</C>[**size**] = {element1, element2, ... size};
 :::
-## Concept of Arrays
+## 📘 Concept of Arrays
 
 ![picture 4](https://i.imgur.com/0MV5QLc.png)  
 
 
-## Types of Array
+## 📒 Types of Array
 
 - **Static Array:** Arrays in C/C++ or in general are only static arrays. Meaning we cannot
 change the array size during runtime.  
@@ -143,7 +143,7 @@ for(int i=0; i<4; i++){
  
 
 
-## Array operations and their time complexities
+## 🕧 Array operations and their time complexities
 
 Following are the basic operations supported by an array.
 
@@ -163,13 +163,13 @@ Following are the basic operations supported by an array.
 | Traverse | O(n) | O(n) | 
 | Update | O(1) | O(1) | 
 
-## Advantages
+## ✔️ Advantages
 
 - Arrays are best for storing multiple values in a single variable
 - Arrays are better at processing many values easily and quickly
 - Sorting and searching the values is easier in arrays
 
-## Disadvantages
+## ❌ Disadvantages
 
 - While using array, we must need to make the decision of the size of the array
     in the beginning, so if we are not aware how many elements we are going to

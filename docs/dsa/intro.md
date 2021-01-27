@@ -1,6 +1,6 @@
 ---
 sidebar_label: Introduction
-title: Introduction to DataStructures
+title: Data Structures
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -17,6 +17,9 @@ export const Highlight = ({children, color}) => ( <span style={{
     }}>{children}</span> );
  
 
+
+## 👋 Introduction
+
 Data Structure is a way of collecting and organizing data in such a way that we can
 perform operations on these data in an effective way.
 
@@ -24,7 +27,7 @@ Data Structure can be defined as the group of data elements which provides an
 efficient way of storing and organizing data in the computer so that it can be used
 efficiently. It is a programming construct used to implement an ADT.
 
-## Types of Data Structures
+## 🗒️ Types of Data Structures
  
 
 - **<C color="#892cdc">Primitive data structures </C>** 
@@ -60,7 +63,7 @@ in the arrangement of the elements. Ex: trees and graphs.
 
 ![](https://static.javatpoint.com/ds/images/ds-introduction.png)
 
-## Abstract Data Type
+## 📌 Abstract Data Type
 Abstract data type is a mathematical model or concept that defines a data type
 logically. It specifies a set of data and collection of operations that can be
 performed on that data. ADT only mentions what operations are to be performed
@@ -94,7 +97,7 @@ operations can be performed on the list.
 
 
 
-## Operations on Data Structures.
+## 🖥️ Operations on Data Structures.
 
 We can perform various operations on data structures:
 
@@ -113,7 +116,7 @@ or not.
 
 **Access:** Accessing the data in the data structure.
 
-## Few basic list of data structures.
+## 📜 Few basic list of data structures.
 
 - **Arrays**
 - **Stacks**

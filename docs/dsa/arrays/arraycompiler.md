@@ -33,7 +33,7 @@ export const Cb = ({children}) => ( <span style={{
       color: "#1877F2",
     }}>{children}</span> );
 
-## Array Representation by Compiler
+## 💻 Array Representation by Compiler
 
 When we create a variable or an array in C, its address gets allocated in the memory
 during execution. When the program gets compiled into machine code, variables or
@@ -66,7 +66,7 @@ Therefore, the address can be calculated as **<Cp>Base address</Cp>** + **<Cg>in
 datatype</C>**. The base address is known during runtime when the memory for array is
 allocated and its updated in runtime and it is called as **<Co>data binding</Co>**.
 
-## Why C/C++ have indices starting strictly from 0?
+## ❓ Why C/C++ have indices starting strictly from 0?
 
 Lets take the formula for obtaining the address with indices starting from 1 and 0.
 

@@ -7,19 +7,39 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #ac92ec;
+--ifm-color-primary-dark: #9371e6;
+--ifm-color-primary-darker: #8761e3;
+--ifm-color-primary-darkest: #6230db;
+--ifm-color-primary-light: #c5b3f2;
+--ifm-color-primary-lighter: #d1c3f5;
+--ifm-color-primary-lightest: #f6f4fd;
   --ifm-code-font-size: 95%;
  
   
 }
  
+.navbar__title {
+  align-items: center;
+  color: var(--ifm-navbar-link-color);
+  display: flex;
+  font-weight: bold;
+  height: 2rem;
+}
 
+.header-icon:hover {
+  opacity: 0.6;
+}
+
+.header-insta-link:before{
+  content: ' ';
+  width: 30px;
+  height: 30px;
+  margin: 3px 0 0 -10px;
+  display: flex;
+  background: url("/img/insta.svg");
+  background-repeat: no-repeat;
+}
 
 .navbar--dark {
   --ifm-navbar-background-color: #242526;
@@ -74,6 +94,7 @@ ul ul .table-of-contents__link--active::before{
 .button.button--outline.button--secondary.button--lg{
   border-width: 2px;
   border-color: var(--ifm-color-primary);
+  color: white !important;
 }
 .button.button--outline.button--secondary.button--lg:hover{
   background-color: var(--ifm-color-primary);

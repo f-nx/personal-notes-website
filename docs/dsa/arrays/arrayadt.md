@@ -53,7 +53,7 @@ operations can be performed on arrays.
 
 **`search()`** - Perform linear search on array to find first occurrence of given element.  
 
-## Implementation of array ADT
+## 🔰 Implementation of array ADT
 
 <Tabs
   defaultValue="c"

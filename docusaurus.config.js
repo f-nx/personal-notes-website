@@ -29,8 +29,8 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/f-nx/personal-notes-website',
-          label: 'GitHub',
+          href: 'https://instagram.com/fnx2305',
+          className: 'header-insta-link header-icon-link',
           position: 'right',
         },
       ],
