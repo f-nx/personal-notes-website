@@ -25,6 +25,10 @@ module.exports = {
           label: "Problems",
           items: ['dsa/arrays/problems/problems']
         }]
+      },{
+        type: 'category',
+        label: "Linked Lists",
+        items: ['dsa/ll/ll','dsa/ll/singlyll','dsa/ll/circularll','dsa/ll/doublyll']
       }]
     }
      

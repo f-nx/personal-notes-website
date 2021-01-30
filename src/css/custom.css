@@ -101,6 +101,16 @@ ul ul .table-of-contents__link--active::before{
   color: white;
 }
 
+.alert--info {
+  background-color: #1877F2 !important;
+}
 blockquote {
   border-color: var(--ifm-color-primary);
+}
+
+code {
+
+  background-color: #f9f2f4;
+  color: #cb3d67;
+  
 }
