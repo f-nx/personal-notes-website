@@ -1,5 +1,5 @@
 ---
-sidebar_label: Array ADT
+sidebar_label: ADT
 title: Array as ADT
 ---
 import Tabs from '@theme/Tabs';

@@ -5,31 +5,31 @@ module.exports = {
       label: "Home",
       collapsed: false,
       items: ['introduction','about']
-    },
+    }, 
     {
       type: 'category',
-      label: "DSA",
-      items: ['dsa/intro',{
+      label: "Data Structures",
+      items: ['ds/intro', 'pointers',{
         type: 'category',
         label: "Complexity",
-        items: ['dsa/timecol','dsa/spacecol']
+        items: ['ds/timecol','ds/spacecol']
       },{
         type: 'category',
         label: "Arrays",
-        items: ['dsa/arrays/arrays','dsa/arrays/arrayadt','dsa/arrays/arraypointer','dsa/arrays/arraycompiler',{
-          type: 'category',
-          label: "Algorithms",
-          items: ['dsa/arrays/algorithms/basic']
-        },{
-          type: 'category',
-          label: "Problems",
-          items: ['dsa/arrays/problems/problems']
-        }]
+        items: ['ds/arrays/arrays','ds/arrays/arrayadt','ds/arrays/arraypointer','ds/arrays/arraycompiler']
       },{
         type: 'category',
-        label: "Linked Lists",
-        items: ['dsa/ll/ll','dsa/ll/singlyll','dsa/ll/circularll','dsa/ll/doublyll']
+        label: "Stack",
+        items: ['ds/stack/stack']
+      },{
+        type: 'category',
+        label: "Queue",
+        items: ['ds/queue/queue']
       }]
+    },{
+      type: 'category',
+      label: 'Algorithms',
+      items: ['algorithms/basics','algorithms/maths','algorithms/cppstl','algorithms/sorting','algorithms/arrays','algorithms/bitmanipulation']
     }
      
   ],

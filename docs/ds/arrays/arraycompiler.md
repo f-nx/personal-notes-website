@@ -1,5 +1,5 @@
 ---
-sidebar_label: Array representation by compiler
+sidebar_label: Representation by Compiler
 title:    
 ---
 import Tabs from '@theme/Tabs';

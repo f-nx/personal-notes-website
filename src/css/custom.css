@@ -6,6 +6,9 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
 :root {
   --ifm-color-primary: #ac92ec;
 --ifm-color-primary-dark: #9371e6;
@@ -14,10 +17,17 @@
 --ifm-color-primary-light: #c5b3f2;
 --ifm-color-primary-lighter: #d1c3f5;
 --ifm-color-primary-lightest: #f6f4fd;
-  --ifm-code-font-size: 95%;
+--ifm-code-font-size: 95%;
+--ifm-font-family-monospace: 'JetBrains Mono';
  
   
 }
+
+code {
+  font-family: 'JetBrains Mono', 'monospace';
+}
+
+ 
  
 .navbar__title {
   align-items: center;
@@ -114,3 +124,4 @@ code {
   color: #cb3d67;
   
 }
+

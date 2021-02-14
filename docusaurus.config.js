@@ -11,7 +11,7 @@ module.exports = {
   themeConfig: {
     hideableSidebar: true,
     prism: {
-      theme: require('prism-react-renderer/themes/oceanicNext'),
+      theme: require('prism-react-renderer/themes/vsDark'),
     },
     navbar: {
       style: 'dark',
